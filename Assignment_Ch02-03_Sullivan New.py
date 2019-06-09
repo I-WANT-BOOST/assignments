@@ -1,0 +1,6 @@
+firstName = input('Enter your Name:')
+payPerHour = float(input('Enter your pay rate:'))
+hoursWorked = float(input('Enter your hours worked:'))
+if(hoursWorked<40):pay =(payPerHour)*(hoursWorked)
+else:pay = ((hoursWorked-40)*(payPerHour*1.5))+(40*payPerHour)
+print(firstName,'Earned: $',pay,'this week.')
